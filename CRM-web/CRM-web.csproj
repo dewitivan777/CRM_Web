@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>CRM_web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Vue-Scripts\Home\" />
+    <Folder Include="Vue-Scripts\Account\" />
+  </ItemGroup>
+
+
+
+</Project>
