@@ -10,6 +10,9 @@
     <Folder Include="Vue-Scripts\Account\" />
   </ItemGroup>
 
-
+  <Target Name="PrepublishScript" BeforeTargets="Build">
+    <Exec Command="npm install" />
+    <Exec Command="npm run build" />
+  </Target>
 
 </Project>
